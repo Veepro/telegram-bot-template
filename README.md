@@ -4,6 +4,8 @@ You can use this project as a template for your bots. An important feature of th
 
 ## Instruction
 Firstly **fork** this repository, and **clone** your forked repository. [View more about fork and clone](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
+
+Also you can create a repository from a template. [View more about creating a repository from a template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
 ### Virtual environment setup
 ```
 pip install virtualenv
