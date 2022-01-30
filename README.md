@@ -15,7 +15,16 @@ Requirements for base project (Flask and pyTelegramBotAPI) has already in *requi
 pip install -r requirements.txt
 ```
 
-After installing other use command for update requirements.txt:
+After installing other use command for **update** *requirements.txt*:
 ```
 pip freeze > requirements.txt
+```
+### Deploy to Heroku
+Heroku is a cloud platform as a service. For work your Python web app must have the following base structure:
+- **Procfile** wich indicates Heroku what and how run 
+- **main.py** is entry point for web app
+- **requirements.txt** with all the right libraries
+For deploy your app use folliwing command:
+```
+git push heroku main
 ```
